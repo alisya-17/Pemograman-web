@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban DigiCraft</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Form Pemesanan Ringkas - Poliban DigiCraft &nbsp;&nbsp;<a href="../kontak.html"><font size="4">Kembali ke Beranda</font></a></h1>
+        </header>
+    <hr>
+    <main>
+    <img src="../gambar/kazuu.png" alt="Foto Kazuha" width="250">
+    <p><b>Desain Photocard</b><br>
+    Photocard dengan desain unik dan berkualitas, cocok untuk koleksi
+    </p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr bgcolor="#A7C7E7">
+                <th>Package Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paket Basic</td>
+                <td>Rp. 50.000</td>
+            </tr>
+
+            <tr>
+                <td>Paket Standar</td>
+                <td>Rp. 100.000</td>
+            </tr>
+
+            <tr>
+                <td>Paket Premium</td>
+                <td>Rp.150.000</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <form action="#" method="post">
+    <fieldset>
+        <p><b>Formulir Pemesanan</b></p>
+        <label for="nama_lengkap">Nama Lengkap:</label>
+        <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama Lengkap" size="40" required>
+        <br><br>
+
+        <label for="email_pemesan">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email_pemesan" id="email_pemesan" placeholder="Email" size="40" required>
+        <br><br>
+
+        <label for="pilih_paket">Paket:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="pilih_paket" id="pilih_paket" required>
+            <option value="">Pilih Paket</option>
+            <option value="Basic">Paket Basic (Rp. 50.000)</option>
+            <option value="Standar">Paket Standar (Rp. 100.000)</option>
+            <option value="Premium">Paket Premium (Rp. 150.000)</option>
+        </select>
+        <br><br>
+
+        <button type="submit"><b>Kirim Pesanan</b></button>
+    </fieldset>
+    </form>
+    </main>
+</body>
+</html>
