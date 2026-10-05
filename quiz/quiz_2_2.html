@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz 2</title>
+</head>
+<body>
+     <h3>Nama : Alisya Nabilla Putri <br>
+    NIM : E030425043</h3>
+    <hr>
+
+    <h1>Kuis Praktikum : Form Pemesanan Service</h1>
+
+    <form action="#" method="post">
+    <table cellpadding="4">
+        <tr>
+            <td><label for="nama">Nama Pelanggan :</label></td>
+            <td><input type="text" name="nama" id="nama" placeholder="Masukkan Nama" size="30" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="layanan">Kategori Layanan :</label></td>
+            <td><select name="layanan" id="layanan" required>
+            <option value="web_development">Web Development</option>
+            <option value="graphic_desain">Graphic Desain</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td><label>Metode Pembayaran :</label></td>
+            <td>
+                <input type="radio" name="pembayaran_bank" id="pembayaran_bank" value="Bank" checked>
+                <label for="pembayaran_bank">Transfer Bank</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="radio" name="pembayaran_ewallet" id="pembayaran_ewallet" value="Ewallet">
+                <label for="pembayaran_ewallet">E-Wallet</label>
+            </td>
+        </tr>
+    </table>
+
+    <button type="submit">Kirim Form</button>
+    </form>
+</body>
+</html>
